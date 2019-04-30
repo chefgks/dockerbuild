@@ -5,7 +5,7 @@ pipeline{
         {
             steps
             {
-                sh './script.sh'
+                sh 'script.sh'
             }
     }   }    
 }
