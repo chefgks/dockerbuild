@@ -6,7 +6,7 @@ pipeline{
             steps
             {
                 bash 
-                '''
+                ''
                     #!/bin/bash                
                     echo "Hello I am Going to build your first Docker image"
                     cd /var/lib/jenkins/workspace/first-jenkins-job
@@ -22,7 +22,8 @@ pipeline{
                     else 
                     echo "I am exiting now"
                     fi
-                '''
+                ''
+                
                 
             }
     }   }    
