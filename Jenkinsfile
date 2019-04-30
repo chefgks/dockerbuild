@@ -5,7 +5,8 @@ pipeline{
         {
             steps
             {
-                sh 'script.sh'
+                sh chmod +x script.sh
+                sh ./cript.sh
             }
     }   }    
 }
